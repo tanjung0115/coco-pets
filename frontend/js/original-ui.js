@@ -233,6 +233,7 @@ document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateHome
 function showPageBack(){
  document.querySelectorAll('.d-page-back,.d-page-header').forEach(el=>el.remove());
  const route=location.hash.slice(1)||'welcome';
+ if(['login','register','server-login'].includes(route))return;
  let previous=navigationPosition-1;
  while(previous>=0&&user()&&/^(welcome|login|register)$/.test(navigationRoutes.get(previous)))previous--;
  const fallback=currentBoard?.isConnected?currentBoard.dataset.backRoute|| (user()?'home':'welcome'):(user()?'home':'welcome');
@@ -305,7 +306,6 @@ const savedAuth=async(data,register)=>{
 };
 async function authDesign(route,v){
  const register=route==='register';if(!await board(route,register?'Create an account':'Login',v,false))return;
- put(`<a class="d-layer d-small-link" href="#server" style="${designPositions(25,886,380,44)}justify-content:center;background:white">Atur koneksi server</a>`);
  const f=formOnBoard(d=>savedAuth(d,register),register?[34,645,362,24]:[34,457,362,27]);
  if(register){
   inputAt(f,'Full name','name',[34,292,362,46],{placeholder:'Full name',attrs:'maxlength="80" autocomplete="name"'});
@@ -314,14 +314,15 @@ async function authDesign(route,v){
   inputAt(f,'Confirm password','confirm',[34,550,362,46],{type:'password',placeholder:'Enter password again',attrs:'minlength="8" autocomplete="new-password"'});
   submitAt(f,'Create account',[29,670,373,60]);hit('Already have an account? Login',[48,742,335,44],'login');
  }else{
-  inputAt(f,'Email address','email',[78,265,309,46],{type:'email',placeholder:'Email Address',background:'#d6d6d6',attrs:'autocomplete="email"'});
-  inputAt(f,'Password','password',[78,342,309,46],{type:'password',placeholder:'Password',background:'#d6d6d6',attrs:'minlength="8" autocomplete="current-password"'});
+  inputAt(f,'Email address','email',[34,265,353,46],{type:'email',placeholder:'Email Address',background:'#edf4fa',css:'padding-left:54px;',attrs:'autocomplete="email"'});
+  inputAt(f,'Password','password',[34,342,353,46],{type:'password',placeholder:'Password',background:'#edf4fa',css:'padding-left:54px;',attrs:'minlength="8" autocomplete="current-password"'});
+  for(const [name,y,path] of [['email',277,'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/>'],['password',354,'<rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/>']])f.insertAdjacentHTML('beforeend',`<svg class="d-login-field-icon" data-field-icon="${name}" style="position:absolute;left:50px;top:${y}px;width:22px;height:22px;z-index:4;pointer-events:none;color:#67859b" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${path}</svg>`);
   submitAt(f,'LOGIN',[48,484,318,46]);hit('Forgot Password?',[204,409,190,45],'forgot');
   for(const [label,y] of [['Google',636],['Facebook',697],['Apple',758]])hit('Login With '+label,[48,y,318,45],null,'social');
   hit("Don't have an account? Register",[65,820,300,44],'register');
  }
 }
-async function welcomeDesign(v){const name=['welcome','onboarding2','onboarding3'][onboarding];if(!await board(name,['Hey! Welcome','A world of care','Your companion'][onboarding],v,false))return;hit(onboarding<2?'Next':'Get started',[31,824,367,55],null,'next');hit('Login',[305,765,85,48],'login');}
+async function welcomeDesign(v){const name=['welcome','onboarding2','onboarding3'][onboarding];if(!await board(name,['Hey! Welcome','A world of care','Your companion'][onboarding],v,false))return;hit(onboarding<2?'Next':'Get started',[31,824,367,55],null,'next');hit('Login',[305,887,90,44],'login');}
 async function homeDesign(v){
  const u=user();if(!await board(u.pets.length?'home':'firstRun',u.pets.length?'Home':'Welcome to COCO',v))return;
  if(!u.pets.length){hit('Add my first pet',[30,774,373,60],'pet-new');hit('Explore the shop',[22,262,386,105],'shop');backTo('profile');return;}
