@@ -1,0 +1,858 @@
+{
+  "welcome": {
+    "file": "assets/design/welcome.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 0.0,
+    "sourceY": 0.0
+  },
+  "onboarding2": {
+    "file": "assets/design/onboarding2.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 510.0,
+    "sourceY": 0.0
+  },
+  "onboarding3": {
+    "file": "assets/design/onboarding3.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 1020.0,
+    "sourceY": 0.0
+  },
+  "loading": {
+    "file": "assets/design/loading.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 1530.0,
+    "sourceY": 0.0
+  },
+  "home": {
+    "file": "assets/design/home.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 2040.0,
+    "sourceY": 0.0
+  },
+  "shopFood": {
+    "file": "assets/design/shopFood.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 2550.0,
+    "sourceY": 0.0
+  },
+  "track": {
+    "file": "assets/design/track.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 0.0,
+    "sourceY": 1620.0
+  },
+  "devices": {
+    "file": "assets/design/devices.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 510.0,
+    "sourceY": 1620.0
+  },
+  "login": {
+    "file": "assets/design/login.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 1020.0,
+    "sourceY": 1620.0
+  },
+  "pet": {
+    "file": "assets/design/pet.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 1530.0,
+    "sourceY": 1620.0
+  },
+  "health": {
+    "file": "assets/design/health.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 2040.0,
+    "sourceY": 1620.0
+  },
+  "records": {
+    "file": "assets/design/records.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 2550.0,
+    "sourceY": 1620.0
+  },
+  "product": {
+    "file": "assets/design/product.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 0.0,
+    "sourceY": 3240.0
+  },
+  "vetDetail": {
+    "file": "assets/design/vetDetail.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 510.0,
+    "sourceY": 3240.0
+  },
+  "booking": {
+    "file": "assets/design/booking.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "4a308df5-545f-4b4e-a267-a4fba85048f0",
+    "sourceX": 1020.0,
+    "sourceY": 3240.0
+  },
+  "reviews": {
+    "file": "assets/design/reviews.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 1530.0,
+    "sourceY": 0.0
+  },
+  "addReview": {
+    "file": "assets/design/addReview.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 2040.0,
+    "sourceY": 0.0
+  },
+  "cart": {
+    "file": "assets/design/cart.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 2550.0,
+    "sourceY": 0.0
+  },
+  "shopAccessories": {
+    "file": "assets/design/shopAccessories.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 0.0,
+    "sourceY": 1620.0
+  },
+  "shopIoT": {
+    "file": "assets/design/shopIoT.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 510.0,
+    "sourceY": 1620.0
+  },
+  "shopVet": {
+    "file": "assets/design/shopVet.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 1020.0,
+    "sourceY": 1620.0
+  },
+  "notifications": {
+    "file": "assets/design/notifications.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 1530.0,
+    "sourceY": 1620.0
+  },
+  "deviceDetail": {
+    "file": "assets/design/deviceDetail.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 2040.0,
+    "sourceY": 1620.0
+  },
+  "profile": {
+    "file": "assets/design/profile.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 2550.0,
+    "sourceY": 1620.0
+  },
+  "addDevice": {
+    "file": "assets/design/addDevice.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 0.0,
+    "sourceY": 3240.0
+  },
+  "addPet": {
+    "file": "assets/design/addPet.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 510.0,
+    "sourceY": 3240.0
+  },
+  "payment": {
+    "file": "assets/design/payment.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 1020.0,
+    "sourceY": 3240.0
+  },
+  "pushHealth": {
+    "file": "assets/design/pushHealth.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 1530.0,
+    "sourceY": 3240.0
+  },
+  "pushFood": {
+    "file": "assets/design/pushFood.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 2040.0,
+    "sourceY": 3240.0
+  },
+  "feeder": {
+    "file": "assets/design/feeder.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 2550.0,
+    "sourceY": 3240.0
+  },
+  "retail": {
+    "file": "assets/design/retail.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 0.0,
+    "sourceY": 4860.0
+  },
+  "vets": {
+    "file": "assets/design/vets.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 510.0,
+    "sourceY": 4860.0
+  },
+  "grooming": {
+    "file": "assets/design/grooming.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 1020.0,
+    "sourceY": 4860.0
+  },
+  "boarding": {
+    "file": "assets/design/boarding.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "460cc766-b996-41d0-b383-3dd063f97ff8",
+    "sourceX": 1530.0,
+    "sourceY": 4860.0
+  },
+  "discover": {
+    "file": "assets/design/discover.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 2040.0,
+    "sourceY": 8160.0
+  },
+  "manage": {
+    "file": "assets/design/manage.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 2550.0,
+    "sourceY": 8160.0
+  },
+  "register": {
+    "file": "assets/design/register.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 3920.0,
+    "sourceY": 1800.0
+  },
+  "forgot": {
+    "file": "assets/design/forgot.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 510.0,
+    "sourceY": 9780.0
+  },
+  "resetSent": {
+    "file": "assets/design/resetSent.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 1020.0,
+    "sourceY": 9780.0
+  },
+  "pairing": {
+    "file": "assets/design/pairing.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 1530.0,
+    "sourceY": 9780.0
+  },
+  "pairSuccess": {
+    "file": "assets/design/pairSuccess.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 2040.0,
+    "sourceY": 9780.0
+  },
+  "pairFail": {
+    "file": "assets/design/pairFail.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 2550.0,
+    "sourceY": 9780.0
+  },
+  "activity": {
+    "file": "assets/design/activity.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 0.0,
+    "sourceY": 11400.0
+  },
+  "sleep": {
+    "file": "assets/design/sleep.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 510.0,
+    "sourceY": 11400.0
+  },
+  "camera": {
+    "file": "assets/design/camera.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 1020.0,
+    "sourceY": 11400.0
+  },
+  "disconnected": {
+    "file": "assets/design/disconnected.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 1530.0,
+    "sourceY": 11400.0
+  },
+  "whistle": {
+    "file": "assets/design/whistle.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 2040.0,
+    "sourceY": 11400.0
+  },
+  "whistleSent": {
+    "file": "assets/design/whistleSent.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 2550.0,
+    "sourceY": 11400.0
+  },
+  "feeding": {
+    "file": "assets/design/feeding.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 0.0,
+    "sourceY": 13020.0
+  },
+  "feedConfirm": {
+    "file": "assets/design/feedConfirm.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 510.0,
+    "sourceY": 13020.0
+  },
+  "feedSuccess": {
+    "file": "assets/design/feedSuccess.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 1020.0,
+    "sourceY": 13020.0
+  },
+  "checkout": {
+    "file": "assets/design/checkout.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "53b8944b-489e-4c02-b140-44f6a80e4b76",
+    "sourceX": 1530.0,
+    "sourceY": 13020.0
+  },
+  "orderSuccess": {
+    "file": "assets/design/orderSuccess.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 2040.0,
+    "sourceY": 12858.3
+  },
+  "orders": {
+    "file": "assets/design/orders.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 2550.0,
+    "sourceY": 12858.3
+  },
+  "orderDetail": {
+    "file": "assets/design/orderDetail.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 0.0,
+    "sourceY": 14478.3
+  },
+  "addresses": {
+    "file": "assets/design/addresses.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 510.0,
+    "sourceY": 14478.3
+  },
+  "about": {
+    "file": "assets/design/about.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 1020.0,
+    "sourceY": 14478.3
+  },
+  "bookingConfirm": {
+    "file": "assets/design/bookingConfirm.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 1530.0,
+    "sourceY": 14478.3
+  },
+  "bookingSuccess": {
+    "file": "assets/design/bookingSuccess.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 2040.0,
+    "sourceY": 14478.3
+  },
+  "bookings": {
+    "file": "assets/design/bookings.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 2550.0,
+    "sourceY": 14478.3
+  },
+  "groomBooking": {
+    "file": "assets/design/groomBooking.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 0.0,
+    "sourceY": 16098.3
+  },
+  "groomSuccess": {
+    "file": "assets/design/groomSuccess.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 510.0,
+    "sourceY": 16098.3
+  },
+  "boardBooking": {
+    "file": "assets/design/boardBooking.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 1020.0,
+    "sourceY": 16098.3
+  },
+  "boardSuccess": {
+    "file": "assets/design/boardSuccess.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 1530.0,
+    "sourceY": 16098.3
+  },
+  "emptyCart": {
+    "file": "assets/design/emptyCart.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 2040.0,
+    "sourceY": 16098.3
+  },
+  "networkError": {
+    "file": "assets/design/networkError.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 2550.0,
+    "sourceY": 16098.3
+  },
+  "help": {
+    "file": "assets/design/help.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 0.0,
+    "sourceY": 17718.3
+  },
+  "helpSent": {
+    "file": "assets/design/helpSent.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 510.0,
+    "sourceY": 17718.3
+  },
+  "petStatus": {
+    "file": "assets/design/petStatus.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 1020.0,
+    "sourceY": 17718.3
+  },
+  "petRoudy": {
+    "file": "assets/design/petRoudy.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 1530.0,
+    "sourceY": 17718.3
+  },
+  "petFurry": {
+    "file": "assets/design/petFurry.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 2040.0,
+    "sourceY": 17718.3
+  },
+  "verifyEmail": {
+    "file": "assets/design/verifyEmail.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 4410.0,
+    "sourceY": 1638.31
+  },
+  "codeResent": {
+    "file": "assets/design/codeResent.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "da777ceb-1d7d-463d-b7fe-24554d79a599",
+    "sourceX": 4900.0,
+    "sourceY": 1638.31
+  },
+  "codeError": {
+    "file": "assets/design/codeError.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 5390.0,
+    "sourceY": 0.0
+  },
+  "accountCreated": {
+    "file": "assets/design/accountCreated.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 5880.0,
+    "sourceY": 0.0
+  },
+  "registerError": {
+    "file": "assets/design/registerError.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 6370.0,
+    "sourceY": 0.0
+  },
+  "emailExists": {
+    "file": "assets/design/emailExists.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 6860.0,
+    "sourceY": 0.0
+  },
+  "firstRun": {
+    "file": "assets/design/firstRun.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 0.0,
+    "sourceY": 19320.0
+  },
+  "petSaved": {
+    "file": "assets/design/petSaved.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 510.0,
+    "sourceY": 19320.0
+  },
+  "statusGuide": {
+    "file": "assets/design/statusGuide.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 1020.0,
+    "sourceY": 19320.0
+  },
+  "choosePet": {
+    "file": "assets/design/choosePet.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 1530.0,
+    "sourceY": 19320.0
+  },
+  "locationOffline": {
+    "file": "assets/design/locationOffline.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 2040.0,
+    "sourceY": 19320.0
+  },
+  "locationPermission": {
+    "file": "assets/design/locationPermission.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 2550.0,
+    "sourceY": 19320.0
+  },
+  "paymentPending": {
+    "file": "assets/design/paymentPending.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 0.0,
+    "sourceY": 20940.0
+  },
+  "paymentFailed": {
+    "file": "assets/design/paymentFailed.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 510.0,
+    "sourceY": 20940.0
+  },
+  "pairPermission": {
+    "file": "assets/design/pairPermission.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 1020.0,
+    "sourceY": 20940.0
+  },
+  "pairConnecting": {
+    "file": "assets/design/pairConnecting.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "db14be43-dcb1-4aed-be42-bba6be8f1367",
+    "sourceX": 1530.0,
+    "sourceY": 20940.0
+  },
+  "feedTimeout": {
+    "file": "assets/design/feedTimeout.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 2040.0,
+    "sourceY": 22760.0
+  },
+  "bookingPet": {
+    "file": "assets/design/bookingPet.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 2550.0,
+    "sourceY": 22760.0
+  },
+  "slotConflict": {
+    "file": "assets/design/slotConflict.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 0.0,
+    "sourceY": 24380.0
+  },
+  "cancelBooking": {
+    "file": "assets/design/cancelBooking.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 510.0,
+    "sourceY": 24380.0
+  },
+  "bookingCancelled": {
+    "file": "assets/design/bookingCancelled.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 1020.0,
+    "sourceY": 24380.0
+  },
+  "removeCart": {
+    "file": "assets/design/removeCart.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 1530.0,
+    "sourceY": 24380.0
+  },
+  "signOutConfirm": {
+    "file": "assets/design/signOutConfirm.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 2040.0,
+    "sourceY": 24380.0
+  },
+  "savedAddress": {
+    "file": "assets/design/savedAddress.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 2550.0,
+    "sourceY": 24380.0
+  },
+  "trackRoudy": {
+    "file": "assets/design/trackRoudy.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 0.0,
+    "sourceY": 26000.0
+  },
+  "trackFurry": {
+    "file": "assets/design/trackFurry.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 510.0,
+    "sourceY": 26000.0
+  },
+  "bookingRoudy": {
+    "file": "assets/design/bookingRoudy.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 1020.0,
+    "sourceY": 26000.0
+  },
+  "bookingFurry": {
+    "file": "assets/design/bookingFurry.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 1530.0,
+    "sourceY": 26000.0
+  },
+  "bookingConfirmRoudy": {
+    "file": "assets/design/bookingConfirmRoudy.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 2040.0,
+    "sourceY": 26000.0
+  },
+  "bookingConfirmFurry": {
+    "file": "assets/design/bookingConfirmFurry.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 2550.0,
+    "sourceY": 26000.0
+  },
+  "bookingSuccessRoudy": {
+    "file": "assets/design/bookingSuccessRoudy.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 0.0,
+    "sourceY": 27620.0
+  },
+  "bookingSuccessFurry": {
+    "file": "assets/design/bookingSuccessFurry.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 510.0,
+    "sourceY": 27620.0
+  },
+  "firstPet": {
+    "file": "assets/design/firstPet.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 1020.0,
+    "sourceY": 27620.0
+  },
+  "resetPassword": {
+    "file": "assets/design/resetPassword.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 7350.0,
+    "sourceY": 1820.0
+  },
+  "resetComplete": {
+    "file": "assets/design/resetComplete.svg",
+    "width": 430.0,
+    "height": 932.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 7840.0,
+    "sourceY": 1820.0
+  },
+  "petNoData": {
+    "file": "assets/design/petNoData.svg",
+    "width": 430.0,
+    "height": 935.0,
+    "source": "5f3edf7c-a80e-4775-af5e-0852fb5d93c4",
+    "sourceX": 1530.0,
+    "sourceY": 27620.0
+  }
+}

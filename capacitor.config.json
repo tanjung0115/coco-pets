@@ -1,0 +1,21 @@
+{
+  "appId": "id.cocopets.app",
+  "appName": "COCO Pets",
+  "webDir": "frontend",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#4b82b2"
+  },
+  "plugins": {
+    "SystemBars": {
+      "style": "DARK",
+      "hidden": false,
+      "insetsHandling": "native"
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

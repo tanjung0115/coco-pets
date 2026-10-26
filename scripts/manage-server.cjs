@@ -1,0 +1,16 @@
+'use strict';
+// Operator tool: run on the server machine. No administrator secrets go into the APK.
+const crypto=require('node:crypto');
+const {createApi}=require('../backend/api.cjs');
+const api=createApi(),db=api.db,[command,...args]=process.argv.slice(2);
+try{
+ if(command==='grant-operator'||command==='revoke-operator'){const email=String(args[0]||'').trim().toLowerCase(),u=db.prepare('SELECT id,email FROM users WHERE email=?').get(email);if(!u)throw Error('Daftar akun server terlebih dahulu, kemudian gunakan email yang sama.');if(command==='grant-operator')db.prepare('INSERT OR IGNORE INTO operators VALUES(?)').run(u.id);else db.prepare('DELETE FROM operators WHERE user_id=?').run(u.id);require('../backend/operations.cjs').audit(db,'cli',command,'operator',u.id,null,{email:u.email});console.log(command+': '+u.email);}
+ else if(command==='bookings')console.table(db.prepare('SELECT id,user_id,pet_id,provider,date,time,status FROM appointments ORDER BY date,time').all());
+ else if(command==='confirm-booking'||command==='cancel-booking'){const row=db.prepare('SELECT * FROM appointments WHERE id=?').get(args[0]);if(!row)throw Error('Booking tidak ditemukan.');const result=require('../backend/admin.cjs').updateBooking(db,'cli',{id:row.id,previousStatus:row.status,status:command==='confirm-booking'?'Dikonfirmasi':'Dibatalkan'});console.log('Status booking: '+result.booking.status);}
+ else if(command==='products')console.table(db.prepare('SELECT id,price,stock FROM products').all());
+ else if(command==='set-product'){const [id,price,stock]=args,op=require('../backend/operations.cjs');op.integer(+price);op.integer(+stock,1000000);op.transaction(db,()=>{const before=db.prepare('SELECT id,price,stock,revision FROM products WHERE id=?').get(id);if(!before)throw Error('Produk tidak ditemukan.');db.prepare('UPDATE products SET price=?,stock=?,revision=revision+1 WHERE id=?').run(+price,+stock,id);op.audit(db,'cli','update','product',id,before,{...before,price:+price,stock:+stock,revision:before.revision+1});});console.log('Produk diperbarui.');}
+ else if(command==='users')console.table(db.prepare('SELECT id,email,verified,created_at FROM users').all());
+ else if(command==='provision-device'){const [userId,petId]=args,u=db.prepare('SELECT state FROM users WHERE id=?').get(userId);if(!u||!JSON.parse(u.state).pets.some(p=>p.id===petId))throw Error('Akun atau hewan tidak ditemukan.');const id=crypto.randomUUID(),token=crypto.randomBytes(32).toString('hex');db.prepare('INSERT INTO devices(id,user_id,pet_id,token_hash) VALUES(?,?,?,?)').run(id,userId,petId,crypto.createHash('sha256').update(token).digest('hex'));console.log(JSON.stringify({deviceId:id,token},null,2));console.log('Simpan token ini pada perangkat. Token tidak ditampilkan lagi.');}
+ else if(command==='revoke-device'){if(!db.prepare('DELETE FROM devices WHERE id=?').run(args[0]).changes)throw Error('Perangkat tidak ditemukan.');console.log('Akses perangkat dicabut.');}
+ else console.log('Commands: grant-operator EMAIL | revoke-operator EMAIL | users | bookings | confirm-booking ID | cancel-booking ID | products | set-product ID PRICE STOCK | provision-device USER_ID PET_ID | revoke-device ID');
+}catch(e){console.error(e.message);process.exitCode=1;}finally{api.close();}

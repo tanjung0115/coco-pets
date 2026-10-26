@@ -1,0 +1,298 @@
+[
+  {
+    "id": "food1",
+    "name": "Josera Mini Deluxe",
+    "price": 2900,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "Josera",
+    "targetSpecies": "Anjing",
+    "description": "900g"
+  },
+  {
+    "id": "food2",
+    "name": "Pedigree Chicken & Vege",
+    "price": 5390,
+    "stock": 15,
+    "category": "Makanan",
+    "brand": "Pedigree",
+    "targetSpecies": "Anjing",
+    "description": "3kg"
+  },
+  {
+    "id": "toy1",
+    "name": "BlackHawk Puppy Lamb & Rice",
+    "price": 36500,
+    "stock": 12,
+    "category": "Makanan",
+    "brand": "BlackHawk",
+    "targetSpecies": "Anjing",
+    "description": "20kg"
+  },
+  {
+    "id": "bed1",
+    "name": "Royal Canin Labrador",
+    "price": 11450,
+    "stock": 8,
+    "category": "Makanan",
+    "brand": "Royal Canin",
+    "targetSpecies": "Anjing",
+    "description": "3kg"
+  },
+  {
+    "id": "iot1",
+    "name": "Automatic Pet Feeder",
+    "price": 24489,
+    "stock": 5,
+    "category": "Perangkat",
+    "description": ""
+  },
+  {
+    "id": "iot2",
+    "name": "GPS Pet Tracker",
+    "price": 10580,
+    "stock": 5,
+    "category": "Perangkat",
+    "description": ""
+  },
+  {
+    "id": "accessory1",
+    "name": "Dog Collar",
+    "price": 1390,
+    "stock": 10,
+    "category": "Aksesori",
+    "description": ""
+  },
+  {
+    "id": "accessory2",
+    "name": "Warm fleece vest",
+    "price": 1780,
+    "stock": 10,
+    "category": "Aksesori",
+    "description": ""
+  },
+  {
+    "id": "accessory3",
+    "name": "Pet Nail Clipper & Claws Scissors",
+    "price": 900,
+    "stock": 10,
+    "category": "Aksesori",
+    "description": ""
+  },
+  {
+    "id": "accessory4",
+    "name": "Flea Comb",
+    "price": 285,
+    "stock": 10,
+    "category": "Aksesori",
+    "description": ""
+  },
+  {
+    "id": "vet1",
+    "name": "Wet Dog – Flea & Tick",
+    "price": 700,
+    "stock": 10,
+    "category": "Vet Items",
+    "description": "210ml"
+  },
+  {
+    "id": "vet2",
+    "name": "Orondo Spray",
+    "price": 2800,
+    "stock": 10,
+    "category": "Vet Items",
+    "description": "250ml"
+  },
+  {
+    "id": "vet3",
+    "name": "Nexgard – Afoxolaner",
+    "price": 3480,
+    "stock": 10,
+    "category": "Vet Items",
+    "description": "136mg"
+  },
+  {
+    "id": "vet4",
+    "name": "Petro Mange Cream",
+    "price": 650,
+    "stock": 10,
+    "category": "Vet Items",
+    "description": "70g"
+  },
+  {
+    "id": "iot3",
+    "name": "Fi Smart Collar",
+    "price": 9200,
+    "stock": 10,
+    "category": "Perangkat",
+    "description": ""
+  },
+  {
+    "id": "iot4",
+    "name": "Petcube Pet Camera",
+    "price": 15965,
+    "stock": 10,
+    "category": "Perangkat",
+    "description": ""
+  },
+  {
+    "id": "cat-dry",
+    "name": "Kibble Kucing Dewasa",
+    "price": 2400,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kucing",
+    "description": "1 kg"
+  },
+  {
+    "id": "cat-kitten",
+    "name": "Kibble Anak Kucing",
+    "price": 2600,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kucing",
+    "description": "500 g"
+  },
+  {
+    "id": "cat-wet-chicken",
+    "name": "Wet Food Kucing Ayam",
+    "price": 450,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kucing",
+    "description": "85 g"
+  },
+  {
+    "id": "cat-wet-fish",
+    "name": "Wet Food Kucing Ikan",
+    "price": 500,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kucing",
+    "description": "85 g"
+  },
+  {
+    "id": "cat-treat",
+    "name": "Camilan Kucing",
+    "price": 850,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kucing",
+    "description": "60 g"
+  },
+  {
+    "id": "cat-senior",
+    "name": "Kibble Kucing Senior",
+    "price": 2900,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kucing",
+    "description": "1 kg"
+  },
+  {
+    "id": "rabbit-pellets",
+    "name": "Pelet Kelinci",
+    "price": 1300,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kelinci",
+    "description": "500 g"
+  },
+  {
+    "id": "rabbit-hay",
+    "name": "Hay Kelinci",
+    "price": 1700,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kelinci",
+    "description": "500 g"
+  },
+  {
+    "id": "hamster-pellets",
+    "name": "Pelet Hamster",
+    "price": 950,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Hamster",
+    "description": "250 g"
+  },
+  {
+    "id": "hamster-mix",
+    "name": "Campuran Pakan Hamster",
+    "price": 1100,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Hamster",
+    "description": "300 g"
+  },
+  {
+    "id": "bird-seed",
+    "name": "Campuran Biji Burung",
+    "price": 1200,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Burung",
+    "description": "500 g"
+  },
+  {
+    "id": "bird-pellets",
+    "name": "Pelet Burung",
+    "price": 1400,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Burung",
+    "description": "400 g"
+  },
+  {
+    "id": "fish-flakes",
+    "name": "Pakan Ikan Flakes",
+    "price": 650,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Ikan",
+    "description": "100 g"
+  },
+  {
+    "id": "fish-pellets",
+    "name": "Pelet Ikan",
+    "price": 750,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Ikan",
+    "description": "150 g"
+  },
+  {
+    "id": "turtle-pellets",
+    "name": "Pelet Kura-kura",
+    "price": 1500,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Kura-kura",
+    "description": "250 g"
+  },
+  {
+    "id": "guinea-pellets",
+    "name": "Pelet Marmut",
+    "price": 1450,
+    "stock": 20,
+    "category": "Makanan",
+    "brand": "COCO Local",
+    "targetSpecies": "Marmut",
+    "description": "500 g"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "coco-pets-local",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file-if-exists=.env backend/server.cjs",
+    "start:lan": "node --env-file-if-exists=.env backend/lan.cjs",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android",
+    "android:apk": "node scripts/build-android.cjs",
+    "android:release": "node scripts/build-android.cjs --release",
+    "android:release:check": "node scripts/build-android.cjs --release-check",
+    "server:manage": "node --env-file-if-exists=.env scripts/manage-server.cjs",
+    "server:backup": "node --env-file-if-exists=.env scripts/backup-server.cjs"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
+    "playwright": "1.64.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "nodemailer": "^10.2.1"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
